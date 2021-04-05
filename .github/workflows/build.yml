@@ -28,6 +28,8 @@ jobs:
       run: yarn
 
     - name: Build
+      env:
+        PUBLIC_URL: "https://${{ github.actor }}.github.io/${{ github.event.repository.name }}"
       run: yarn build
 
     - name: Deploy
