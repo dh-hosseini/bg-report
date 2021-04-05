@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://dh-hosseini.github.io/bg-report/static/css/main.c12a6681.chunk.css",
+    "main.js": "https://dh-hosseini.github.io/bg-report/static/js/main.d3f5ad18.chunk.js",
+    "main.js.map": "https://dh-hosseini.github.io/bg-report/static/js/main.d3f5ad18.chunk.js.map",
+    "runtime-main.js": "https://dh-hosseini.github.io/bg-report/static/js/runtime-main.e38ae24f.js",
+    "runtime-main.js.map": "https://dh-hosseini.github.io/bg-report/static/js/runtime-main.e38ae24f.js.map",
+    "static/js/2.6ead34e6.chunk.js": "https://dh-hosseini.github.io/bg-report/static/js/2.6ead34e6.chunk.js",
+    "static/js/2.6ead34e6.chunk.js.map": "https://dh-hosseini.github.io/bg-report/static/js/2.6ead34e6.chunk.js.map",
+    "static/js/3.ea4c082b.chunk.js": "https://dh-hosseini.github.io/bg-report/static/js/3.ea4c082b.chunk.js",
+    "static/js/3.ea4c082b.chunk.js.map": "https://dh-hosseini.github.io/bg-report/static/js/3.ea4c082b.chunk.js.map",
+    "index.html": "https://dh-hosseini.github.io/bg-report/index.html",
+    "static/css/main.c12a6681.chunk.css.map": "https://dh-hosseini.github.io/bg-report/static/css/main.c12a6681.chunk.css.map",
+    "static/js/2.6ead34e6.chunk.js.LICENSE.txt": "https://dh-hosseini.github.io/bg-report/static/js/2.6ead34e6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e38ae24f.js",
+    "static/js/2.6ead34e6.chunk.js",
+    "static/css/main.c12a6681.chunk.css",
+    "static/js/main.d3f5ad18.chunk.js"
+  ]
+}
