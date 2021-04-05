@@ -1,0 +1,21 @@
+#games .search-wrapper {
+    text-align: center;
+    margin: 50px;
+}
+
+#games .search-input{ 
+    background-color: transparent;
+    width: 70%;
+    border-width: 0;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 4rem;
+    transition: ease-in-out, width .35s ease-in-out;
+
+}
+
+#games .search-input:active, #games .search-input:focus {
+    border-width: 1px;
+    border-color: var(--primary-color);
+    border-style: solid;
+}

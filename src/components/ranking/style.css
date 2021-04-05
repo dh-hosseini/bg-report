@@ -1,0 +1,70 @@
+#ranking{
+    position: fixed;
+    right: 2px;
+    display: block;
+    z-index: 99;
+    top:0;
+}
+
+#ranking #ranks{ 
+    background-color: var(--info-color);
+    border-right: 5px var(--info-color) solid;
+    border-left: 2px var(--info-color) solid;
+    height: 100vh;
+    top: -32px;
+    position: relative;
+    overflow-y: auto;
+}
+#ranking #ranks .rank-item{
+    display: flex;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#ranking #ranks .avatar {
+    position: relative;
+}
+#ranking #ranks .rank-score {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--background-color);
+    opacity: 0.7;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 0.8rem;
+}
+
+#ranking #ranks .player-name {
+    padding: 5px 5px 0 10px;
+    font-size: 1.5rem;
+}
+
+
+#ranking #ranks .player-wins {
+    font-size: 1rem;
+    color: antiquewhite;
+}
+
+#ranking .handle-bar {
+    left: -50px;
+    background-color: var(--info-color);
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    z-index: 10;
+    width: 55px;
+}
+
+
+#ranking .is-open {
+    right: 0px !important;
+    animation:scale-in-hor-right .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+#ranking .is-close {
+    animation:scale-out-hor-right .5s cubic-bezier(.55,.085,.68,.53) both;
+}
