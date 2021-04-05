@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import mobile from 'is-mobile';
+import { useState } from 'react';
 import Avatar from 'react-avatar';
 import "./style.css"
 
